@@ -1,6 +1,6 @@
 <style>
     .cuerpo{
-     background-color:blue ;
+     background-color:green ;
 
     }
 
@@ -19,3 +19,5 @@
         $variable++;
     }
 ?>
+
+<h1> esta es una actualizacion de mi codigo </h1>

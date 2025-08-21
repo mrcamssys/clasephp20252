@@ -1,6 +1,6 @@
 <style>
     .cuerpo{
-        background-color: #000fff;
+        background-color: #0f1de2ff;
     }
 <?php
     $variable = 0;
@@ -13,4 +13,5 @@
     }
 ?>
 
+<h1>esta es una actualizción de codigo 
 

@@ -14,6 +14,8 @@
         echo "<h".$variable.">hola mundo \n".$variable."</h".$variable.">";
         $variable++;
     }
+
 ?>
 
+<h1>esta es una actualizacion de codigo</h1>
 
