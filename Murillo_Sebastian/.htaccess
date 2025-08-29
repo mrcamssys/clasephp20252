@@ -1,0 +1,16 @@
+RewriteEngine on
+
+# Ruta base del proyecto
+RewriteBase /itc/Corte1/Murillo_Sebastian
+
+# Excluir archivos y carpetas específicas
+RewriteCond %{REQUEST_URI} ^/itc/Corte1/Murillo_Sebastian(index\.php|images|robots\.txt|application|stilos|user_guide|uploads|dist) [NC]
+RewriteRule ^ - [L]
+
+# Redirigir todo lo demás a index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# Personalización de error 404
+ErrorDocument 404 /itc/Corte1/Murillo_Sebastian/alert?tipo=404
