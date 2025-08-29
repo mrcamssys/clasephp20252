@@ -6,7 +6,6 @@ class ControladorB extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
-       //$this->load->library('contexto');
     }
 
 	public function index()
@@ -15,8 +14,5 @@ class ControladorB extends CI_Controller {
 		//$this->load->view('pagina1');
 		//$this->load->view('helpers/footer');
 	}
-
-
-
-
 }
+

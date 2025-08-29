@@ -26,9 +26,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //servidor de pruebas
 //$config['base_url'] = 'http://phpserver/itc/Corte1/Guevara_Santiago/';
 //servidor de produccion
-//$config['base_url'] = '';
+$config['base_url'] = 'https://miserver1.rf.gd/';
 //Entorno local
-$config['base_url'] = 'http://localhost/Guevara_Santiago/';
+//$config['base_url'] = '';
 
 /*z
 |--------------------------------------------------------------------------

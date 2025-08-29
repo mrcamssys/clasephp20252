@@ -1,23 +1,23 @@
 <style>
-    .cuerpo{
-     background-color:green ;
-
-    }
-
-
-
+  .cuerpo {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
 </style>
-<?php
 
-    $variable = 0;
-    echo "<h1 class= 'cuerpo'>hola mundo \n".$variable; "</h1>";
-    echo "<hr>";
-    
+<div class="cuerpo">
+  <?php
+  $variable = 0;
+  echo "<h1> Hola mundo 😃 — Variable: ".$variable."</h1>";
+  echo "<hr>";
 
-    while($variable<=6){
-        echo "<h".$variable."hola mundo \n".$variable. "</h".$variable.">";
-        $variable++;
-    }
-?>
-
-<h1> esta es una actualizacion de mi codigo </h1>
+  while ($variable < 6) {
+      echo "<h".$variable."> este texto es cambiable → Valor: ". $variable. "</h".$variable.">";
+      $variable++;
+  }
+  ?>
+  <h2>Esta es una actualización de mi pagina ✔️</h2>
+</div>

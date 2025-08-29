@@ -11,7 +11,7 @@ class Welcome extends CI_Controller {
 	}
 
 
-	protected function otracosa(){
+	public function otracosa(){
 
 		$this->load->view('helpers/head');
 		$this->load->view('body');

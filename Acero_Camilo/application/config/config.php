@@ -25,11 +25,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 //Servidor de pruebas
-$config['base_url'] = 'http://phpserver/itc/Corte1/Acero%20Camilo/';
+//$config['base_url'] = 'http://phpserver/itc/Corte1/Acero%20Camilo/';
 //Servidor de Produccion
 $config['base_url'] = 'https://visacaproject.42web.io/';
 //Entorno Local
-$config['base_url'] = '';
+//$config['base_url'] = 'http://localhost/Acero_Camilo/index.php/welcome';
 
 /*
 |--------------------------------------------------------------------------

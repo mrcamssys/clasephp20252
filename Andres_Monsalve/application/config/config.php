@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //Servidor de pruebas
 //$config['base_url'] = 'http://phpserver/itc/Corte1/Andres%20Monsalve/';
 //Servidor de Produccion
-//$config['base_url'] = 'https://monsalve.42web.io/';
+$config['base_url'] = 'https://https://monsalve.rf.gd/';
 //Servidor local
 //$config['base_url'] = 'http//localhost/itc/Corte1/Andres%20Monsalve/';
 
